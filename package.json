@@ -1,0 +1,20 @@
+{
+  "name": "difftool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -p 8080 -c-1 .",
+    "deploy": "gh-pages -d .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "javar",
+  "license": "ISC",
+  "dependencies": {
+    "diff": "^5.1.0",
+    "http-server": "^14.1.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
